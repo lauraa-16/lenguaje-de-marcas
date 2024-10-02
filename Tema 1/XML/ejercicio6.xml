@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido codigo= "1111">
+    <destinatario>
+        <nombre>José Antonio Lojo</nombre>
+        <direccion>
+            <nombre_calle>calle Barco</nombre_calle>
+            <numero>4</numero>
+            <code_postal>29004</code_postal>
+            <piso>tercer piso</piso>
+            <letra>A</letra>
+        </direccion>
+    </destinatario>
+
+    <articulos></articulos>
+    <fecha_entrega>
+        <dia>20</dia>
+        <mes>9</mes>
+        <anio>2019</anio>
+    </fecha_entrega>
+</pedido>
