@@ -11,10 +11,22 @@
         </direccion>
     </destinatario>
 
-    <articulos></articulos>
+    <articulos>
+        <articulo1>
+            <nombre_art>bicicleta</nombre_art>
+            <modelo>A2020</modelo>
+        </articulo1>
+
+        <articulo2>
+            <nombre_art>ordenador</nombre_art>
+            <modelo>1345</modelo>
+        </articulo2>
+    </articulos>
+    
     <fecha_entrega>
         <dia>20</dia>
         <mes>9</mes>
         <anio>2019</anio>
     </fecha_entrega>
+
 </pedido>
