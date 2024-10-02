@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+
+<libro>
+<titulo>It (Eso)</titulo>
+<autor>Stephen King</autor>
+<publicacion>
+    <dia>15</dia>
+    <mes>septiembre</mes>
+    <anio>1986</anio>
+</publicacion>
+
+<genero>
+    <scifi>Sí</scifi>
+    <accion>Sí</accion>
+    <terror>Sí</terror>
+    <romance>no</romance>
+    <fantasia>no</fantasia>
+    <historia>no</historia>
+</genero>
+
+<idioma>Ingles</idioma>
+
+<sinopsis>
+¿Quién o qué mutila y mata a los niños de un pequeño pueblo 
+norteamericano? ¿Por qué llega cíclicamente el horror a Derry en
+forma de un payaso siniestro que va sembrando la destrucción a su paso? 
+Esto es lo que se proponen averiguar los protagonistas de esta novela.
+
+Tras veintisiete años de tranquilidad y lejanía una antigua promesa infantil 
+les hace volver al lugar en el que vivieron su infancia y juventud como una 
+terrible pesadilla. Regresan a Derry para enfrentarse con su pasado y enterrar
+definitivamente la amenaza que los amargó durante su niñez. Saben que pueden
+morir, pero son conscientes de que no conocerán la paz hasta que aquella 
+cosa sea destruida para siempre.
+</sinopsis>
+</libro>
+
+<libro>
+    <titulo>Tan poca vida</titulo>
+    <autor>Hanya Yanagihara</autor>
+    <publicacion>
+        <dia>10</dia>
+        <mes>Marzo</mes>
+        <anio>2015</anio>
+    </publicacion>
+    
+    <genero>
+        <scifi>no</scifi>
+        <accion>no</accion>
+        <terror>no</terror>
+        <romance>no</romance>
+        <fantasia>no</fantasia>
+        <historia>no</historia>
+    </genero>
+    
+    <idioma>Ingles</idioma>
+    
+    <sinopsis>
+        Tan poca vida es una historia que recorre más de tres décadas de 
+        amistad en la vida de cuatro hombres que crecen juntos en Manhattan.
+        A lo largo de los años, aprenden a sobreponerse a las crisis económicas,
+        sociales y emocionales
+    </sinopsis>
+</libro>
+
+<libro>
+    <titulo>La insoportable levedad del ser</titulo>
+    <autor>Milan Kundera</autor>
+    <publicacion>
+        <dia>01</dia>
+        <mes>Noviembre</mes>
+        <anio>1985</anio>
+    </publicacion>
+    
+    <genero>
+        <scifi>no</scifi>
+        <accion>no</accion>
+        <terror>no</terror>
+        <romance>si</romance>
+        <fantasia>no</fantasia>
+        <historia>no</historia>
+    </genero>
+    
+    <idioma>Checo</idioma>
+    
+    <sinopsis>
+    Ambientada en Praga durante 1968, La insoportable levedad del ser trata 
+    de un hombre y sus dudas existenciales en torno a la vida en pareja, 
+    convertidas en conflictos sexuales y afectivos. La novela relata escenas 
+    de la vida cotidiana trazadas con un profundo sentido trascendental: 
+    la inutilidad de la existencia y la necesidad del eterno retorno de 
+    Nietzsche por el que todo lo vivido ha de repetirse eternamente, solo
+    que al volver lo hace de un modo diferente, ya no fugaz como ocurrió en 
+    el principio.
+    </sinopsis>
+</libro>
+
+</biblioteca>
