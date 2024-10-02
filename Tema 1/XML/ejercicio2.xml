@@ -3,7 +3,11 @@
 
 <libro>
 <titulo>It (Eso)</titulo>
-<autor>Stephen King</autor>
+
+<autores>
+    <autor1>Stephen King</autor1>
+</autores>
+
 <publicacion>
     <dia>15</dia>
     <mes>septiembre</mes>
@@ -31,7 +35,9 @@ cosa sea destruida para siempre.
 
 <libro>
     <titulo>Tan poca vida</titulo>
-    <autor>Hanya Yanagihara</autor>
+    <autores>
+        <autor1>Hanya Yanagihara</autor1>
+    </autores>
     <publicacion>
         <dia>10</dia> 
         <mes>Marzo</mes>
@@ -52,7 +58,9 @@ cosa sea destruida para siempre.
 
 <libro>
     <titulo>La insoportable levedad del ser</titulo>
-    <autor>Milan Kundera</autor>
+    <autores>
+        <autor1>Milan Kundera</autor1>
+    </autores>
     <publicacion>
         <dia>01</dia>
         <mes>Noviembre</mes>
