@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--países-->
+<europa>
+    <pais>
+        <nombre>España</nombre>
+        <poblacion>48.345.223</poblacion>
+        <capital>Madrid</capital>
+        <superficie>505.970 Km2</superficie>
+    </pais>
+
+    <pais>
+        <nombre>Italia</nombre>
+        <poblacion>29038903</poblacion>
+        <capital>Roma</capital>
+        <superficie>34490324890m2</superficie>
+    </pais>
+
+    <pais>
+        <nombre>Alemania</nombre>
+        <poblacion>3904128904</poblacion>
+        <capital>Berlin</capital>
+        <superficie>280380338m2</superficie>
+    </pais>
+
+    <pais>
+        <nombre>Japón</nombre>
+        <poblacion>125.171.000 </poblacion>
+        <capital>Tokyo</capital>
+        <superficie>377.974 Km2</superficie>
+    </pais>
+
+</europa>
