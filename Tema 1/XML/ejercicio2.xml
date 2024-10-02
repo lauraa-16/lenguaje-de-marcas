@@ -10,14 +10,7 @@
     <anio>1986</anio>
 </publicacion>
 
-<genero>
-    <scifi>Sí</scifi>
-    <accion>Sí</accion>
-    <terror>Sí</terror>
-    <romance>no</romance>
-    <fantasia>no</fantasia>
-    <historia>no</historia>
-</genero>
+<genero>Terror</genero>
 
 <idioma>Ingles</idioma>
 
@@ -40,19 +33,12 @@ cosa sea destruida para siempre.
     <titulo>Tan poca vida</titulo>
     <autor>Hanya Yanagihara</autor>
     <publicacion>
-        <dia>10</dia>
+        <dia>10</dia> 
         <mes>Marzo</mes>
-        <anio>2015</anio>
+        <anio>2015</anio> 
     </publicacion>
     
-    <genero>
-        <scifi>no</scifi>
-        <accion>no</accion>
-        <terror>no</terror>
-        <romance>no</romance>
-        <fantasia>no</fantasia>
-        <historia>no</historia>
-    </genero>
+    <genero>Drama</genero>
     
     <idioma>Ingles</idioma>
     
@@ -73,14 +59,7 @@ cosa sea destruida para siempre.
         <anio>1985</anio>
     </publicacion>
     
-    <genero>
-        <scifi>no</scifi>
-        <accion>no</accion>
-        <terror>no</terror>
-        <romance>si</romance>
-        <fantasia>no</fantasia>
-        <historia>no</historia>
-    </genero>
+    <genero>Filosofía</genero>
     
     <idioma>Checo</idioma>
     
