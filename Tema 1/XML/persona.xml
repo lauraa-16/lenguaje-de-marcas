@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrama>
+    <persona>
+        <nombre>Laura de la Mata</nombre>
+        <fecha_nacimiento>
+            <dia>5</dia>
+            <mes>1</mes>
+            <anio>2006</anio>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+
+    <persona>
+        <nombre>Elena Sánchez</nombre>
+        <fecha_nacimiento>
+            <dia>9</dia>
+            <mes>5</mes>
+            <anio>2006</anio>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+
+    <persona>
+        <nombre>Carmen de la Mata</nombre>
+        <fecha_nacimiento>
+            <dia>24</dia>
+            <mes>1</mes>
+            <anio>2011</anio>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+
+</diagrama>
