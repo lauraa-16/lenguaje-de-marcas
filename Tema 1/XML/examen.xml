@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos xmlns:ped="http://www.iesbelen.org/pedido" xmlns:cliente="http://www.janderenterprises/com/client">
+    <ped:pedido>
+        <ped:numero>65412</ped:numero>
+        <ped:fecha>22/10/2015</ped:fecha>
+    </ped:pedido>
+
+    <cliente:ordenante>
+        <cliente:nombre>Alicia Lopez</cliente:nombre>
+        <cliente:direccion>Avenida del condestable, 72</cliente:direccion>
+        <cliente:poblacion>Almogía</cliente:poblacion>
+        <cliente:provincia>Málaga</cliente:provincia>
+        <cliente:codigo_postal>29211</cliente:codigo_postal>
+    </cliente:ordenante>
+
+    <ped:articulos>
+       <ped:articulo>
+        <ped:referencia>22321-W</ped:referencia>
+        <ped:nombre>Cortadora de césped</ped:nombre>
+        <ped:cantidad>1</ped:cantidad>
+        <ped:precio_unitario>423,65</ped:precio_unitario>
+       </ped:articulo>
+
+       <ped:articulo>
+        <ped:referencia>73623-A</ped:referencia>
+        <ped:nombre>Monitor de bebé</ped:nombre>
+        <ped:cantidad>2</ped:cantidad>
+        <ped:precio_unitario>89,95</ped:precio_unitario>
+       </ped:articulo>
+    </ped:articulos>
+
+    <ped:comentarios>
+        <ped:comentario>Es imprescindible la entrega en horario de tarde.</ped:comentario>
+        <ped:comentario>El timbre interior no funciona. Hay que llamar a la puerta.</ped:comentario>
+    </ped:comentarios>
+</datos>
