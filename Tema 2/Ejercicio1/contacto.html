@@ -1,0 +1,46 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Las mejores películas y series (AGOSTO)</h1>
+    <ol>
+        <li><a href="Index.html">Página principal</a></li>
+        <li><a href="carteles.html">Carteles de películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.filmaffinity.com/es/main.html">Filmaffinity</a></li>
+    </ol>
+    <hr/>
+    <br/>
+    <form action="/enviar" method="POST">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"/><br/><br/>
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea type="mensaje" id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div>
+        <label for="opciones">Opciones:</label>
+            <select name="opciones" id="opciones">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+                <option value="opcion4">Opión 4</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Borrar"/>
+        </div>
+       
+    </form>
+</body>
