@@ -1,8 +1,17 @@
-/*Etiquetas generales*/
-body{
-    font-family: Verdana, "Geneva", Tahoma, sans-serif; 
-    font-size: 12px;
-    font-weight: normal;
-    background-image: url(Assets/FicherosP2/fondo.gif);
-    font-style: blue;
+body {
+    background-image: url(./Assets/FicherosP2/fondo.gif);
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-style: normal;
+    color: blue;
+    font-size: 12px; 
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style:bold;
+    color:darkred;
+}
+h2{
+    font-size: 24px;
+    font-style: bold;
 }
