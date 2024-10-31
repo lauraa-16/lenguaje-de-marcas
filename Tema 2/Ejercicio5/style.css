@@ -1,3 +1,50 @@
 body{
-    
+    background-color: #e9ecfc;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: bolder;
+    color:black;
+    margin: auto;
+    width: 90%;
 }
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: bolder;
+    color:red;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: bolder;
+    color: blue;
+    text-align: right;
+    border-bottom: solid thin;
+
+ }
+.nav{
+    font-family:sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    background-color: yellow;
+    border: dotted;
+}
+.Honda1{
+    float: right;
+}
+.Honda2{
+    float:left
+}
+.imagenes3{
+    float:inline-start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.enlace{
+    text-align: left;
+}
+
