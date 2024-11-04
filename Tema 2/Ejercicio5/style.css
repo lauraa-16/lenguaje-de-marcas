@@ -5,7 +5,7 @@ body{
     font-style: bolder;
     color:black;
     margin: auto;
-    width: 90%;
+    width: 800px;
 }
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -21,6 +21,7 @@ h2{
     color: blue;
     text-align: right;
     border-bottom: solid thin;
+    margin-top: 5%;
 
  }
 nav{
