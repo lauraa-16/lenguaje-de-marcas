@@ -23,21 +23,25 @@ h2{
     border-bottom: solid thin;
 
  }
-.nav{
+nav{
     font-family:sans-serif;
     font-size: 14px;
     font-style: normal;
-    background-color: yellow;
+    background-color:rgb(248, 229, 145);
     border: dotted;
+    color:blue;
 }
 .Honda1{
-    float: right;
+    float:right;
+    padding-left: 12px;
 }
 .Honda2{
-    float:left
+    float:left;
+    padding-right: 12px;
+    padding-bottom: 12px;
 }
 .imagenes3{
-    float:inline-start;
+   
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -47,4 +51,27 @@ h2{
 .enlace{
     text-align: left;
 }
+.precio{
+    background-color: white;
+    text-align: center;
+    font-style: bolder;
+    font-size: 24px;
 
+}
+span{
+    color:red;
+}
+a:hover{
+    color:black;
+    text-decoration:none;
+}
+p{
+    text-align: justify;
+}
+.logo{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
