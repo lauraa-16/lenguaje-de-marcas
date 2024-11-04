@@ -38,7 +38,8 @@ nav{
 .Honda2{
     float:left;
     padding-right: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 2px;
+    
 }
 .imagenes3{
    
@@ -74,4 +75,5 @@ p{
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
+    
 }
