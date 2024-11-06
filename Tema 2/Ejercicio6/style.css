@@ -3,6 +3,7 @@ body{
     font-size: 12px;
     font-style: normal;
     color:black;
+    font-size: 30px;
 }
 table.Tabla1{
     border-collapse: collapse;
@@ -11,8 +12,8 @@ table.Tabla1{
     border-top: solid thin rgb(199, 195, 195);
     border-left: solid thin rgb(199, 195, 195);
     border-right: solid thin rgb(199, 195, 195);
-
-
+    text-align: center;
+    margin:auto;
 }
 table.Tabla1 caption{
     font-family: Arial, Helvetica, sans-serif;
