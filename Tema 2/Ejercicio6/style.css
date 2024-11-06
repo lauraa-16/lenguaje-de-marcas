@@ -4,3 +4,36 @@ body{
     font-style: normal;
     color:black;
 }
+table.Tabla1{
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom:solid thin rgb(199, 195, 195);
+    border-top: solid thin rgb(199, 195, 195);
+    border-left: solid thin rgb(199, 195, 195);
+    border-right: solid thin rgb(199, 195, 195);
+
+
+}
+table.Tabla1 caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color:green;
+    text-align: center;
+}
+table.Tabla1 td,th{
+    border-collapse: collapse;
+}
+table.Tabla1 th{
+    border-bottom: solid thin rgb(199, 195, 195);
+    background-color: rgb(255, 239, 173);
+    color:rgb(173, 146, 35);
+}
+table.Tabla1 tr.azulClaro{
+    background-color: rgb(220, 232, 242);
+}
+table.Tabla1 tr.azulOscuro{
+    background-color:rgb(200, 224, 246);
+}
+table.Tabla1 tr.recreo{
+    background-color: rgb(119, 143, 164);
+}
