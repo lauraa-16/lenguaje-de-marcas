@@ -100,20 +100,6 @@ article h4 {
 article ul {
 	list-style-type: square;
 }
-
-/*  --------- REFERENCES ---------  */
-
-.references {
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #F7DDC3;
-}
-
-.references article {
-	width: 50%;
-	text-align: center;
-}
-
 /*  DL  */
 
 dl {
