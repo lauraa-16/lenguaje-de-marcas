@@ -1,4 +1,4 @@
-table{
+/*table{
     border-collapse: collapse;
     text-align: center;
     border-bottom:solid thin orangered;
@@ -22,4 +22,71 @@ table td.cajas{
     font-size: large;
     color:aliceblue;
     background-color: gray;
+}*/
+body {
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: repeat(3, 100px); /* 3 filas de 100px */
+    gap: 10px; /* espacio entre cajas */
+}
+
+.caja {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos para la capa roja */
+.caja-roja {
+    grid-column: 1 / 3; /* Equivalente a grid-column-start: 1; grid-column-end: 3; */
+    grid-row: 1 / 2; /* Equivalente a grid-row-start: 1; grid-row-end: 2; */
+    background-color: red;
+}
+
+/* Estilos para la capa negra */
+.caja-negra {
+    grid-column: 1 / 4; /* Equivalente a grid-column-start: 1; grid-column-end: 4; */
+    grid-row: 2 / 3; /* Equivalente a grid-row-start: 2; grid-row-end: 3; */
+    background-color: black;
+}
+
+/* Estilos para la capa azul */
+.caja-azul {
+    grid-column: 3 / 4; /* Equivalente a grid-column-start: 3; grid-column-end: 4; */
+    grid-row: 2 / 4; /* Equivalente a grid-row-start: 2; grid-row-end: 4; */
+    background-color: blue;
+}
+
+/* Estilos para la capa verde */
+.caja-verde {
+    grid-column: 1 / 2; /* Puedes ajustar esto según sea necesario */
+    grid-row: 3 / 4; /* Puedes ajustar esto según sea necesario */
+    background-color: green;
+}
+
+/* Estilos para la capa naranja */
+.caja-naranja {
+    grid-column: 2 / 3; /* Puedes ajustar esto según sea necesario */
+    grid-row: 3 / 4; /* Puede ser ajustado para que quede bien en la cuadrícula */
+    background-color: orange;
+}
+
+/* Estilos para la capa amarilla */
+.caja-amarilla {
+    grid-column: 3 / 4; /* Puedes ajustar esto según sea necesario */
+    grid-row: 3 / 4; /* Posición en la cuadrícula */
+    background-color: yellow;
+}
+
+/* Estilos para la séptima caja (morada) */
+.caja-morada {
+    grid-column: 1 / 2; /* Ajusta según la disposición deseada */
+    grid-row: 4 / 5; /* Añadiendo una nueva fila para la séptima caja */
+    background-color: purple;
+}
+
