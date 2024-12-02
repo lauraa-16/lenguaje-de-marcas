@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom:solid thin orangered;
+    border-top: solid thin orangered;
+    border-left: solid thin orangered;
+    border-right: solid thin orangered;
+    text-align: center;
+    margin:auto;
+}
+table td.cajas{
+    text-align: center;
+    border-top: solid thick black;
+    border-bottom: solid thick black;
+    border-right: solid thick black;
+    border-left: solid thick black;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 300px;
+    font-size: large;
+    color:aliceblue;
+    background-color: gray;
+}
+table td{
+
+}
