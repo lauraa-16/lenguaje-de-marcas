@@ -1,25 +1,49 @@
-table{
-    border-collapse: collapse;
-    text-align: center;
-    border-bottom:solid thin orangered;
-    border-top: solid thin orangered;
-    border-left: solid thin orangered;
-    border-right: solid thin orangered;
-    text-align: center;
-    margin:auto;
+.container{
+	border: solid red thin;
+	padding: 10px;
+	display: grid;
+	grid-template: repeat(5, 1fr) / 1fr 1fr;
+	text-align: center;
+	gap: 15px;
+	color: white;
 }
-table td.cajas{
-    text-align: center;
-    border-top: solid thick black;
-    border-bottom: solid thick black;
-    border-right: solid thick black;
-    border-left: solid thick black;
-    padding-bottom: 10%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 300px;
-    font-size: large;
-    color:aliceblue;
-    background-color: gray;
+.rojo{
+	/* grid-column indica el numero de columnas */
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border: solid black;
+	background-color: red;
+}
+.verde{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: green;
+}
+.azul{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: blue;
+}
+.amarillo{
+	grid-column: 2 / 2;
+	/* grid-row indica el numero de filas */
+	grid-row: 2 / 4;
+	border: solid black;
+	background-color: goldenrod;
+}
+.cian{
+	grid-column: 1 / 2;
+	border: solid black;
+	background-color: cyan;
+}
+.lima{
+	grid-column: 2 / 2;
+	border: solid black;
+	background-color: greenyellow;
+}
+.negro{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border: solid black;
+	background-color: black;
 }
