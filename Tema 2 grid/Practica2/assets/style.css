@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+    background:rgba(241, 239, 239, 0.645)}
+  
+  #container {
+      display: grid;
+      grid-template: 200px 1fr / repeat(3 1fr);
+      gap: 10px 10px;
+      margin:20px;}
+    
+  header { 	
+      grid-column: span 2;
+        color: white; 
+        background-color: blue; 
+        padding: 5px; }
+   
+  footer { 
+      grid-column: span 2;
+      background-color: #000000; 
+      padding: 5px;}
+    
+  article { 	
+      background-color: #BBDEFB; 
+      padding: 5px;
+  }
+    #a1{
+      grid-row: span 2;
+    }
+    #a2{
+        grid-row: span 2;
+    }
+    #a3{
+        grid-row: span 2;
+    }
+    #a4{
+        grid-row: span 2;
+    }
+    #a5{
+        grid-row: span 2;
+    }
+
+  nav{
+      grid-column: span 2;
+      background-color:#a5d1e1;
+      padding: 5px;
+  }
+  li{
+      display: inline;  
+      margin: 10px; 
+  }
+  aside{
+    text-align: center;
+    background-color:orange;
+    grid-row: 3/4;
+    grid-column:2/3;
+
+  }
+  aside h2{
+    color:white;
+  }
+  nav h2{
+    color:red
+}
+  header h2 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+  footer p{
+    color:white;
+    text-align: center; 
+
+}
+    
+  /* Web responsive */
+  /*Cuando el tamaño de pantalla sea menor de 400px (o como máximo 400px) le quitamos
+     la propiedad display: grid a la clase container que lo engloba todo, por display: block.*/
+  @media (max-width: 600px) {
+      .container {
+        display: block;}
+}
+    
