@@ -1,0 +1,51 @@
+.contenedor{
+    border: solid red thin;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "rojo rojo"
+    "olivo amarillo"
+    "azul amarillo"
+    "cian verde"
+    "negro negro";
+    text-align: center;
+    gap: 15px;
+    color: white;
+}
+.rojo{
+    grid-area: rojo;
+    border: solid black;
+    background-color: red;
+}
+.olivo{
+    grid-area: olivo;
+    border: solid black;
+    background-color: green;
+}
+.azul{
+    grid-area: azul;
+    border: solid black;
+    background-color: blue;
+}
+.amarillo{
+    grid-area: amarillo;
+    border: solid black;
+    background-color: rgb(236, 138, 1);
+}
+.cian{
+    grid-area: cian;
+    border: solid black;
+    background-color: rgb(0, 222, 222);
+}
+.verde{
+    grid-area: verde;
+    border: solid black;
+    background-color: rgb(139, 230, 3);
+}
+.negro{
+    grid-area: negro;
+    border: solid black;
+    background-color: black;
+}

@@ -29,17 +29,17 @@
 	/* grid-row indica el numero de filas */
 	grid-row: 2 / 4;
 	border: solid black;
-	background-color: goldenrod;
+	background-color: rgb(236, 138, 1);
 }
 .cian{
 	grid-column: 1 / 2;
 	border: solid black;
-	background-color: cyan;
+	background-color: rgb(0, 222, 222);
 }
 .lima{
 	grid-column: 2 / 2;
 	border: solid black;
-	background-color: greenyellow;
+	background-color: rgb(139, 230, 3);
 }
 .negro{
 	grid-column-start: 1;
