@@ -1,81 +1,66 @@
-body {
-    margin: auto;
-    background:rgba(241, 239, 239, 0.645)}
-  
-  #container {
-      display: grid;
-      grid-template: 200px 1fr / repeat(3 1fr);
-      gap: 10px 10px;
-      margin:20px;}
-    
-  header { 	
-      grid-column: span 2;
-        color: white; 
-        background-color: blue; 
-        padding: 5px; }
-   
-  footer { 
-      grid-column: span 2;
-      background-color: #000000; 
-      padding: 5px;}
-    
-  article { 	
-      background-color: #BBDEFB; 
-      padding: 5px;
+#container{
+  display: grid;
+  grid-template: repeat(3 1fr) 100px/200px 50px 1fr 1fr 100px;
+  grid-template-areas: 
+  "header header header header"
+  "nav nav nav nav"
+  "section section section aside"
+  "section section section aside"
+  "footer footer footer footer";
   }
-    #a1{
-      grid-row: span 2;
-    }
-    #a2{
-        grid-row: span 2;
-    }
-    #a3{
-        grid-row: span 2;
-    }
-    #a4{
-        grid-row: span 2;
-    }
-    #a5{
-        grid-row: span 2;
-    }
-
+  header{
+      grid-area: header;
+      background-color: blue;
+      text-align: center;
+      color: white;
+  }
   nav{
-      grid-column: span 2;
-      background-color:#a5d1e1;
-      padding: 5px;
+      grid-area: nav;
+      background-color: rgb(155, 240, 243);
   }
-  li{
-      display: inline;  
-      margin: 10px; 
+  nav li{
+      display: inline;
+      margin: 5px;
+  }
+  section{
+      display: grid;
+      grid-area: section;
+      grid-template: repeat(3 1fr)/repeat(2 1fr);
+      gap: 10px;
+      margin: 5px;
+  }
+  article{
+      background-color: lightgrey;
+      border: solid thin;
+      text-align: center;
+      padding: 3px 20px 100px 20px;
+  }
+  #a1{
+      grid-column: 1/2;
+  }
+  #a2{
+      grid-column: 2/3;
+  }
+  #a3{
+      grid-column: 3/4;
+  }
+  #a4{
+      grid-column: 1/2;
+      grid-row: 2/3;
+  }
+  #a5{
+      grid-column: 2/3;
+      grid-row: 2/3;
   }
   aside{
-    text-align: center;
-    background-color:orange;
-    grid-row: 3/4;
-    grid-column:2/3;
-
+      grid-area: aside;
+      background-color: orange;
+      color: white;
+      text-align: center;
   }
-  aside h2{
-    color:white;
+  footer{
+      grid-area: footer;
+      background-color: black;
+      color: white;
+      text-align: center;
   }
-  nav h2{
-    color:red
-}
-  header h2 {
-    color:rgb(255, 255, 255);
-    text-align: center;
-}
-  footer p{
-    color:white;
-    text-align: center; 
-
-}
-    
-  /* Web responsive */
-  /*Cuando el tamaño de pantalla sea menor de 400px (o como máximo 400px) le quitamos
-     la propiedad display: grid a la clase container que lo engloba todo, por display: block.*/
-  @media (max-width: 600px) {
-      .container {
-        display: block;}
-}
-    
