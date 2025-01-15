@@ -1,0 +1,10 @@
+{
+    "nombre": "nombre de la empresa",
+    "datos":{
+        "direccion": "a",
+        "telefono": "b",
+        "email": "c"
+    },
+    "numEmpleados": "0",
+    "deudas": [true, false]
+}

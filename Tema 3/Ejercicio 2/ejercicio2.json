@@ -1,0 +1,19 @@
+{
+    "numeroEstudiantes":{
+        "primaria": 100,
+        "secundaria": 200,
+        "formacionProfesional":{
+            "FPB": 50,
+            "CFGM": 100,
+            "CFGS": 50
+        },
+        "bachillerato": 100
+    },
+    "nombreDelColegio": "IES El Rincón",
+    "ciudad": {
+        "nombre": "Málaga",
+        "provincia": "Málaga",
+        "codigoPostal": 29000,
+        "distanciaALaCapital": "5 km"
+    }
+}
