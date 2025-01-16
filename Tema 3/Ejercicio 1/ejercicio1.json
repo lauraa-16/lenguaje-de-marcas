@@ -1,10 +1,10 @@
 {
     "nombre": "nombre de la empresa",
     "datos":{
-        "direccion": "a",
-        "telefono": "b",
-        "email": "c"
+        "direccion": "Calle a",
+        "telefono": "435345345345",
+        "email": "asdasd@gmail.com"
     },
-    "numEmpleados": "0",
-    "deudas": [true, false]
+    "numEmpleados": 0,
+    "deudas": true
 }
