@@ -1,0 +1,52 @@
+{
+    "estudiantes":[
+        {
+            "nombre de la titulacion": "primaria",
+            "nombre del estudiante":{
+                "apellidos": "García",
+                "nombre": "Juan"
+            },
+            "email del estudiante": "juan@gmail.com",
+            "repite": false,
+            "nombre amigos": ["María", "Pedro", "Luis"],
+            "asignaturas": [
+                {
+                    "nombre": "Matemáticas",
+                    "nota": 8
+                },
+                {
+                    "nombre": "Lengua",
+                    "nota": 7
+                },
+                {
+                    "nombre": "Inglés",
+                    "nota": 9
+                }
+            ]
+        },
+        {
+            "nombre de la titulacion": "secundaria",
+            "nombre del estudiante":{
+                "apellidos": "García",
+                "nombre": "Ana"
+            },
+            "email del estudiante": "ana@gmail.com",
+            "repite": false,
+            "nombre amigos": ["María", "Pedro", "Luis"],
+            "asignaturas": [
+                {
+                    "nombre": "Matemáticas",
+                    "nota": 8
+                },
+                {
+                    "nombre": "Lengua",
+                    "nota": 7
+                },
+                {
+                    "nombre": "Inglés",
+                    "nota": 9
+                }
+            ]
+        }
+    ]
+}
