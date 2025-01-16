@@ -1,0 +1,36 @@
+{
+    "viajero":{
+        "nombre":"Juan",
+        "apellidos":"García",
+        "datos de contacto": {
+            "dirección":"Calle Mayor, 37",
+            "teléfono":"666555444"
+        },
+        "ciudad de origen": "Málaga"
+    },
+    "nombre de los acompañantes": ["María", "Pedro", "Luis"],
+    "gasto total del viaje": 1500,
+    "relacion de destinos": [
+        {
+            "satisfecho": true,
+            "ciudad": "Madrid",
+            "hotel": {
+                "nombre": "Hotel de Madrid",
+                "precio por noche": 100,
+                "estrellas": 4,
+                "numero de noches": 3
+            }
+        }, 
+        {
+            "satisfecho": true,
+            "ciudad": "Barceñpna",
+            "hotel": {
+                "nombre": "Hotel de Barcelona",
+                "precio por noche": 100,
+                "estrellas": 4,
+                "numero de noches": 3
+            }
+        }
+    ]
+
+}
