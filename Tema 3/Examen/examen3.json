@@ -1,0 +1,28 @@
+{
+    "empleado":[
+        {
+            "-id": "E001",
+            "Puesto":[
+                "gerente", 
+                "bibliotecario"
+            ],
+            "nombre": "Ana López",
+            "horario":{
+                "dia": "lunes a viernes",
+                "horas": "8:00 - 16:00"
+            }
+        },
+        {
+            "-id": "E002",
+            "Puesto":[
+                "asistente", 
+                "compra-venta"
+            ],
+            "nombre": "Pedro García",
+            "horario":{
+                "dia": "martes a sábado",
+                "horas": "10:00 - 18:00"
+            }
+        }
+    ]
+}

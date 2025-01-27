@@ -1,0 +1,36 @@
+{
+    "Tecnológico superior": [
+        {
+            "nombre": "Desarrollo de aplicaciones",
+            "nivel": "Grado Superior",
+            "aulas": [
+                {
+                    "id": 101,
+                    "capacidad": 30,
+                    "Equipamiento": "Ordenadores, Proyector y Pizarra"
+                },
+                {
+                    "id": 102,
+                    "capacidad": 25,
+                    "Equipamiento": "Ordenadores, Pizarra"
+                }
+            ]
+        },
+        {
+            "nombre": "Redes y Sistemas",
+            "nivel": "Grado Superior",
+            "aulas": [
+                {
+                    "id": 201,
+                    "capacidad": 20,
+                    "Equipamiento": "Switches, Routers y Pizarra"
+                },
+                {
+                    "id": 202,
+                    "capacidad": 15,
+                    "Equipamiento": "Switches, Proyector y Ordenadores"
+                }
+            ]
+        }
+    ]
+}
