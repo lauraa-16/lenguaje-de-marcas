@@ -3,75 +3,56 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Segunda</title>
+    <title>Ejercicio Dificil</title>
     <meta name="author" content="Laura"/>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./assets/style2.css'>
-    <script src='main.js'></script>
 </head>
 <body>
-    <form >
+    <form>
         <fieldset>
-            <h1>- Pedido de Pizza -</h1>
-            <div class="bloque1">
+            <h1>Pedido de Pizza -</h1>
+            <div>
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Pon tu nombre"/>
+                <input type="text" id="nombre" name="nombre"/>
             </div>
-            <div class="bloque1">
+            <div>
                 <label for="direccion">Dirección</label>
-                <input type="text" id="direccion" name="direccion" placeholder="Pon tu dirección"/>
+                <input type="text" id="direccion" name="direccion"/>
             </div>
-            <div class="bloque2">
-                <div class="opciones">
-                    <label class="p">Ingredientes</label>
-                    <div>
-                        <input type="checkbox" id="ingredientes" name="ingredientes" value="queso"/>
-                        <label for="ingredientes">Queso</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="ingredientes2" name="ingredientes2" value="pimiento"/>
-                        <label for="ingredientes2">Pimiento</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="ingredientes3" name="ingredientes3" value="cebolla"/>
-                        <label for="ingredientes3">Cebolla</label>
-                    </div>
-                </div>
-                <div class="opciones">
-                    <label class="p">Sizes</label>
-                    <div>
-                        <input type="radio" id="size" name="size" value="small"/>
-                        <label for="sizes">Pequeña</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="size2" name="size" value="medium"/>
-                        <label for="size2">Mediana</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="size3" name="size" value="big"/>
-                        <label for="size3">Grande</label>
-                    </div>
-                </div>
-                <div class="opciones">
-                    <label class="p">Formas de pago</label>
-                        <select class="pago"id="pago" name="pago">
-                            <option>Visa</option>
-                            <option>MasterCard</option>
-                            <option>Efectivo</option>
-                        </select>
-                </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="0"/>
             </div>
-            <div class="bloque3">
+            <div>
+                <label for="ingredientes">Ingredientes</label>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="queso">Queso</input>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="pimiento">Pimiento</input>
+                <input type="checkbox" id="ingredientes" name="ingredientes" value="cebolla">Cebolla</input>
+            </div>
+            <div>
+                <label for="tamagno">Tamaño</label>
+                <input type="radio" id="tamanio" name="tamanio" value="pequenia">Pequeña</input>
+                <input type="radio" id="tamanio" name="tamanio" value="mediana">Mediana</input>
+                <input type="radio" id="tamanio" name="tamanio" value="grande">Grande</input>
+            </div>
+            <div>
+                <label for="pago">Tarjeta</label>
+                <select id="pago" name="pago">
+                        <option>Visa</option>
+                        <option>MasterCard</option>
+                        <option>Efectico</option>
+                </select>
+            </div>
+            <div>
                 <label for="comentario">Instrucciones especiales</label>
-                <textarea id="comentario" name="comentario" cols="40" rows="5"></textarea>
+                    <textarea id="comentario" name="comentario"></textarea>
             </div>
-            <div class="botones">
+            <div>
                 <input type="submit" value="Enviar"/>
                 <input value="Borrar" type="reset"/>
             </div>
         </fieldset>
     </form>
-    <nav>
-    <h2><a href="index.html">Ejercicio uno</a></h2>
-    </nav>
+    <h2><a href="Index.html">Ejercicio principal</a></h2>
 </body>  
