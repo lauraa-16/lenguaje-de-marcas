@@ -43,7 +43,7 @@ console.log(
 
 // Ejercicio 2
 
-let nivelCadena = toString(nivel);
+let nivelCadena = nivel.toString();
 let puntosFloat = parseFloat(puntosVida);
 
 console.log(
@@ -72,11 +72,48 @@ let expGanada = 30;
 let expNecesaria = 100;
 
 if(expActual + expGanada >= expNecesaria) {
-    expActual += expGanada;
     nivel ++;
-    expActual -= expNecesaria;
+    expActual = (expActual + expGanada) - expNecesaria;
+    expGanada = 0;  // Reinicio la experiencia ganada
 }
 
 console.log(
-   
+   "Dificultad: " + dificultad + " novato",
+   "\nNivel: " + nivel,
+   "\nExperiencia actual: " + expActual
+);
+
+//Ejercicio 4
+let monedasCofre = [10, 20, 10];
+let monedas = 0;
+let atuendos = ["duende", "arquero", "caballero"];
+
+for (let i = 1; i < monedasCofre.length; i++) {
+    monedas += monedasCofre[i];
+}
+
+console.log(
+    "Monedas totales: " + monedas
+);
+
+// Añadir un nuevo atuendo
+atuendos.push("mago");
+
+//Enseño los atuendos con un forEach
+atuendos.forEach((atuendo, indice) => {
+    console.log(`Atuendo ${indice}: ${atuendo}`);
+});
+
+// Función curar
+function curar(puntosVida, puntosCuracion) {
+    let vidaFinal = puntosVida + puntosCuracion;
+    if (vidaFinal > VIDA_MAXIMA) {
+        return;
+    } else {
+        return vidaFinal;
+    }
+};
+console.log(
+    "Puntos de vida antes de curar: " + puntosVida,
+    "\nPuntos de vida después de curar: " + curar(puntosVida, 20)
 );
