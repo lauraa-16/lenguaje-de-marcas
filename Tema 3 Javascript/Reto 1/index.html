@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cuenta Atrás</title>
+    <script>
+      let n = 9;
+      let n2 = 9;
+      
+      function cuentaAtras() {
+        setInterval(marchaAtras, 500);
+      }
+
+      function marchaAtras() {
+        document.getElementById("cuenta").src = n + ".png";
+        document.getElementById("cuenta2").src = n2 + ".png";
+        
+        if (n === 0) {
+          if (n2 === 0) {
+            n2 = 9;
+            n = 9;
+          } else {
+            n2--;
+            n = 9;
+          }
+        } else {
+          n--;
+        }
+      }
+    </script>
+  </head>
+  <body onload="cuentaAtras()">
+    <div id="numeros">
+      <img src="9.png" id="cuenta2" />
+      <img src="9.png" id="cuenta" />
+    </div>
+  </body>
+</html>
