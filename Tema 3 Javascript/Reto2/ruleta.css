@@ -1,0 +1,66 @@
+
+.contenedor {
+    margin: auto;
+    width: 602px;
+    background-image: url(./50899b7b3a947c2d24511a2566a2c065.jpg);
+    padding-bottom: 5px;
+}
+
+.imagenes {
+    padding: 10px;
+    border: 1px solid gold;
+    /* Bordes redondeados. */
+    border-radius: 30px;
+    width:580px;
+    text-align: center;
+    /* Sombra. */
+    /*box-shadow: 2px 2px 5px #66CCFF inset;*/
+}
+
+img {
+    margin: 8px;
+    border: 1px solid black;
+    /* Sombra. */
+    box-shadow: 2px 2px 5px #66CCFF;
+}
+
+.botones {
+    width: 570px;
+    text-align: center;
+}
+
+.boton {
+    /* Para que los bloques no ocupen todo el ancho. */
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 5px #999;
+    background-color: goldenrod;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cuadroPuntos {
+    width: 600;
+    height: 200;
+    text-align: justify;
+    margin:auto;
+    background-image: url(./fondo.jpg);
+    image-resolution: auto;
+    border: dotted 2px gold;
+    border-radius: 20px;
+    color: goldenrod;
+    font-weight:bolder;
+}
