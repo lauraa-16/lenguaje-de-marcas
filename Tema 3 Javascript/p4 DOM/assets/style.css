@@ -1,0 +1,77 @@
+.titulo {
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+    "caja1 fondoNegro caja3"
+    "fondoNegro caja5 fondoNegro"
+    "caja7 fondoNegro caja9";
+    gap: 5px;
+}
+
+.caja1{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+}
+.caja3{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+}
+.caja5{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+}
+.caja7{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+}
+.caja9{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+}
+.fondoNegro{
+    display: grid;
+    height: 200px;
+    width: auto;
+    padding: 2px;
+    border: solid black;
+    background-color: black;
+
+}
+.fondoRojo {
+    grid-area: "negro";
+    background-color: rgb(0, 149, 255);
+}
+img {
+    margin: auto;
+}
+
+p {
+    margin: auto;
+}
+button {
+    margin: auto;
+    height: 20px;
+}
