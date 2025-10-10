@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="cliente.xsd">
+    <nombre>Juan Pérez</nombre>
+    <saldo>1500.75</saldo>
+    <numeroCompras>10</numeroCompras>
+    <email>juan.perez@example.com</email>
+    <telefono>612345678</telefono>
+    <iban>ES7620770024003102575766</iban>
+</cliente>

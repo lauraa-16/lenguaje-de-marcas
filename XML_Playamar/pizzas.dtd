@@ -1,0 +1,6 @@
+<!ELEMENT pizzas (#PCDATA|pizza)*>
+<!ELEMENT pizza (#PCDATA|ingrediente)*>
+<!ATTLIST pizza nombre NMTOKEN #REQUIRED>
+<!ATTLIST pizza precio NMTOKEN #REQUIRED>
+<!ELEMENT ingrediente EMPTY>
+<!ATTLIST ingrediente nombre CDATA #REQUIRED>
